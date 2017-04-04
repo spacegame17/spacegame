@@ -402,3 +402,185 @@ Caused by: org.eclipse.emf.common.util.BasicEList$BasicIndexOutOfBoundsException
 
 !ENTRY com.ibm.team.repository 2 900 2017-04-04 10:54:49.375
 !MESSAGE Package descriptor "org.eclipse.emf.ecore.impl.EPackageImpl$1@8ec0d220" references unrecognized package
+!SESSION 2017-04-04 13:24:44.034 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows 7 x86-32 20121024_126071 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR3_20121024_1635_B126071
+JIT  - r11.b02_20120924_26343a
+GC   - R26_Java726_SR3_20121024_1635_B126071
+J9CL - 20121024_126071
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Framework arguments:  -product com.ibm.team.concert.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.team.concert.product
+
+!ENTRY org.eclipse.ui 2 0 2017-04-04 13:26:37.688
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-04-04 13:26:37.688
+!MESSAGE Commands should really have a category: plug-in='com.ibm.xtools.modeler.ui.diagrams.statechart', id='com.ibm.xtools.modeler.ui.diagrams.statechart.moveLeft', categoryId='com.ibm.xtools.modeler.ui.diagrams.statechart.moveTransitiontools.modeler.ui.diagrams.statechart.moveTransition'
+!SESSION 2017-04-04 13:30:20.718 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows 7 x86-32 20121024_126071 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR3_20121024_1635_B126071
+JIT  - r11.b02_20120924_26343a
+GC   - R26_Java726_SR3_20121024_1635_B126071
+J9CL - 20121024_126071
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Framework arguments:  -product com.ibm.team.concert.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.team.concert.product
+
+!ENTRY org.eclipse.ui 2 0 2017-04-04 13:30:36.640
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-04-04 13:30:36.640
+!MESSAGE Commands should really have a category: plug-in='com.ibm.xtools.modeler.ui.diagrams.statechart', id='com.ibm.xtools.modeler.ui.diagrams.statechart.moveLeft', categoryId='com.ibm.xtools.modeler.ui.diagrams.statechart.moveTransitiontools.modeler.ui.diagrams.statechart.moveTransition'
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-04 13:33:03.312
+!MESSAGE Exception thrown when resolving package descriptor for package "org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor@cea6efb": java.lang.ClassNotFoundException: corbaMetaModel.CorbaMetaModelPackage
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2017-04-04 13:33:03.718
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-04 13:33:19.515
+!MESSAGE An error occurred while automatically activating bundle com.ibm.xtools.emf.ram (1918).
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.ibm.xtools.emf.ram.internal.Activator.start() of bundle com.ibm.xtools.emf.ram.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(Unknown Source)
+	at org.eclipse.osgi.framework.util.SecureAction.start(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(Unknown Source)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor.getEPackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.resolvePackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.virtualTypeFor(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.nameToVirtualType(Unknown Source)
+	at com.ibm.team.repository.common.Location.canonicalizeTypedURI(Unknown Source)
+	at com.ibm.team.repository.common.Location.<init>(Unknown Source)
+	at com.ibm.team.repository.common.Location.locationFromAbsUri(Unknown Source)
+	at com.ibm.team.repository.common.Location.location(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getRepositoryUri(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.addDefaultBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.handleLogin(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository.login(Unknown Source)
+	at com.ibm.team.process.internal.rcp.ui.LoginAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+Caused by: org.osgi.framework.BundleException: RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+	at com.ibm.xtools.emf.ram.internal.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	... 38 more
+Root exception:
+org.osgi.framework.BundleException: RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+	at com.ibm.xtools.emf.ram.internal.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(Unknown Source)
+	at org.eclipse.osgi.framework.util.SecureAction.start(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(Unknown Source)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor.getEPackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.resolvePackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.virtualTypeFor(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.nameToVirtualType(Unknown Source)
+	at com.ibm.team.repository.common.Location.canonicalizeTypedURI(Unknown Source)
+	at com.ibm.team.repository.common.Location.<init>(Unknown Source)
+	at com.ibm.team.repository.common.Location.locationFromAbsUri(Unknown Source)
+	at com.ibm.team.repository.common.Location.location(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getRepositoryUri(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.addDefaultBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.handleLogin(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository.login(Unknown Source)
+	at com.ibm.team.process.internal.rcp.ui.LoginAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-04 13:33:19.546
+!MESSAGE Exception thrown when resolving package descriptor for package "org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor@e5730ac8": org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle com.ibm.xtools.emf.ram (1918).
+
+!ENTRY com.ibm.team.repository.client 4 2 2017-04-04 13:33:19.952
+!MESSAGE Problems occurred when invoking code from plug-in: "com.ibm.team.repository.client".
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at java.lang.J9VMInternals.initialize(Unknown Source)
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at sun.reflect.UnsafeFieldAccessorFactory.newFieldAccessor(Unknown Source)
+	at sun.reflect.ReflectionFactory.newFieldAccessor(Unknown Source)
+	at java.lang.reflect.Field.acquireFieldAccessor(Unknown Source)
+	at java.lang.reflect.Field.getFieldAccessor(Unknown Source)
+	at java.lang.reflect.Field.get(Unknown Source)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor.getEPackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.resolvePackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.virtualTypeFor(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.nameToVirtualType(Unknown Source)
+	at com.ibm.team.repository.common.Location.canonicalizeTypedURI(Unknown Source)
+	at com.ibm.team.repository.common.Location.<init>(Unknown Source)
+	at com.ibm.team.repository.common.Location.locationFromAbsUri(Unknown Source)
+	at com.ibm.team.repository.common.Location.location(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getRepositoryUri(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.addDefaultBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.handleLogin(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository.login(Unknown Source)
+	at com.ibm.team.process.internal.rcp.ui.LoginAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+Caused by: org.eclipse.emf.common.util.BasicEList$BasicIndexOutOfBoundsException: index=1, size=1
+	at org.eclipse.emf.common.util.BasicEList.get(Unknown Source)
+	at com.ibm.datamodels.rdf.impl.RDFSPackageImpl.getRDFSLiteral_LexicalForm(Unknown Source)
+	at com.ibm.datamodels.rdf.impl.RDFSPackageImpl.initializePackageContents(Unknown Source)
+	at com.ibm.datamodels.rdf.impl.RDFSPackageImpl.init(Unknown Source)
+	at com.ibm.datamodels.rdf.RDFSPackage.<clinit>(Unknown Source)
+	at java.lang.J9VMInternals.initializeImpl(Native Method)
+	... 27 more
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-04 13:33:19.968
+!MESSAGE Exception thrown when resolving package descriptor for package "org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor@cea6efb": java.lang.ClassNotFoundException: corbaMetaModel.CorbaMetaModelPackage
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-04 13:33:20.015
+!MESSAGE Exception thrown when resolving package descriptor for package "org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor@e5730ac8": org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle com.ibm.xtools.emf.ram (1918).
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-04 13:33:20.030
+!MESSAGE Package descriptor "org.eclipse.emf.ecore.impl.EPackageImpl$1@e6e5ebc6" references unrecognized package
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-04 13:34:59.515
+!MESSAGE NLS unused message: UPGRADE_LABEL in: com.ibm.datatools.core.ui.l10n.datatoolsCoreUI

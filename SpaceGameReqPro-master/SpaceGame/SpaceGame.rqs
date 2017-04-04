@@ -10,6 +10,7 @@ Key=1
 Revision number=1.0000
 Prefix=
 isVersioned=0
+Revision=1.0005
 
 [Rational Architect]
 EclipseElementProxiesPackageName=Eclipse Element Proxies

@@ -1900,6 +1900,42 @@
         <customFields key="http://www.ibm.com/team/Feed:owner" value="_YNh4MOlsEdq4xpiOKg5hvA"/>
         <customFields key="http://www.ibm.com/team/Feed:workitemCategory" value="SPACEGAME"/>
       </internalContents>
+      <internalContents title="Utwórz repozytorium modeli wizualnych (UML)    (9481)" link="https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/9481" description="Zmienione przez użytkownika &lt;a href=&quot;https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.repository.Contributor/jereczem&quot;>Michał Jereczek&lt;/a>:&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Status&amp;nbsp;&lt;/td>&lt;td>Nowe&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;W toku&lt;/td>&lt;/tr>&lt;/table>" publishDate="2017-04-04T11:40:08.000+0200" category="com.ibm.team.feeds.workItemChange" receiveDate="2017-04-04T10:54:45.320+0200" guid="urn:uuid:_sP85oRkaEeeGZdnGMPd9RQ">
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:repositoryId" value="_edsmg3q5EeKooK0-3Z2fQg"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:typeName" value="WorkItem"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:modified" value="2017-04-04T09:40:08Z"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:typeNamespace" value="com.ibm.team.workitem"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:publicUri" value="https://se.isep.pw.edu.pl:9443/ccm/"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:repositoryURL" value="https://se.isep.pw.edu.pl:9443/ccm/"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:itemId" value="_8pnHnxfFEeeGZNnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:stateId" value="_sMYBKBkaEeeGZdnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/team/Feed:creator" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="team.feed.authorEmail" value="jereczem@ee.pw.edu.pl"/>
+        <customFields key="http://www.ibm.com/team/Feed:modifier" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="http://www.ibm.com/team/Feed:subscriber_count" value="0"/>
+        <customFields key="http://www.ibm.com/team/Feed:owner" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="http://www.ibm.com/team/Feed:severity" value="Normalne"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:predecessor_state_id" value="_rR9nUhkaEeeGZdnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/team/Feed:workitemCategory" value="SPACEGAME"/>
+      </internalContents>
+      <internalContents title="Utwórz repozytorium modeli wizualnych (UML)    (9481)" link="https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/9481" description="Zmienione przez użytkownika &lt;a href=&quot;https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.repository.Contributor/jereczem&quot;>Michał Jereczek&lt;/a>:&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Należy do&amp;nbsp;&lt;/td>&lt;td>Nie przypisano&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Michał Jereczek&lt;/td>&lt;/tr>&lt;/table>" publishDate="2017-04-04T11:40:02.000+0200" category="com.ibm.team.feeds.workItemChange" receiveDate="2017-04-04T10:54:45.320+0200" guid="urn:uuid:_rVYu0xkaEeeGZdnGMPd9RQ">
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:repositoryId" value="_edsmg3q5EeKooK0-3Z2fQg"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:typeName" value="WorkItem"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:modified" value="2017-04-04T09:40:02Z"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:typeNamespace" value="com.ibm.team.workitem"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:publicUri" value="https://se.isep.pw.edu.pl:9443/ccm/"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:repositoryURL" value="https://se.isep.pw.edu.pl:9443/ccm/"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:itemId" value="_8pnHnxfFEeeGZNnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:stateId" value="_rR9nUhkaEeeGZdnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/team/Feed:creator" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="team.feed.authorEmail" value="jereczem@ee.pw.edu.pl"/>
+        <customFields key="http://www.ibm.com/team/Feed:modifier" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="http://www.ibm.com/team/Feed:subscriber_count" value="0"/>
+        <customFields key="http://www.ibm.com/team/Feed:owner" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="http://www.ibm.com/team/Feed:severity" value="Normalne"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:predecessor_state_id" value="_F9gU5BfGEeeGZNnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/team/Feed:workitemCategory" value="SPACEGAME"/>
+      </internalContents>
     </internalContents>
     <internalContents title="My Teams in SPACEGAME" url="https://se.isep.pw.edu.pl:9443/ccm/service/com.ibm.team.repository.common.internal.IFeedService?provider=team&amp;project_area=SPACEGAME&amp;project_area_id=_ZZyYNBFAEeepopIQLKoeXQ&amp;user={$user}" description="This feed notifies about all Jazz events related to all teams of which the logged in user is a member." category="com.ibm.team.feed.core.SystemFeed" updateInterval="10" forceDownload="true" itemLimit="1000">
       <internalContents title="WeeklyScrum 6    (9486)" link="https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/9486" description="Zmienione przez użytkownika &lt;a href=&quot;https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.repository.Contributor/jereczem&quot;>Michał Jereczek&lt;/a>:&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Status&amp;nbsp;&lt;/td>&lt;td>Nowe&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Gotowe&lt;/td>&lt;/tr>&lt;tr>&lt;td style=&quot;white-space:nowrap;&quot; rowspan=1>Komentarze [&lt;a href=&quot;https://se.isep.pw.edu.pl:9443/ccm/resource/itemOid/com.ibm.team.workitem.WorkItem/_VGiXPhfLEeeGZNnGMPd9RQ?path=internalComments[1]&quot;>#1&lt;/a>]&amp;nbsp;&lt;/td>&lt;td>Dodano: &lt;a href=&quot;https://se.isep.pw.edu.pl:9443/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemName/com.ibm.team.workitem.Attachment/242&quot;>załącznik 242&lt;/a> (raport6.pdf)&lt;/td>&lt;/tr>&lt;tr>&lt;td>Rozstrzygnięte przez&amp;nbsp;&lt;/td>&lt;td>Nie przypisano&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Michał Jereczek&lt;/td>&lt;/tr>&lt;tr>&lt;td>Dowiązanie Załączniki&amp;nbsp;&lt;/td>&lt;td>dodano:&#xA;&lt;br />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://se.isep.pw.edu.pl:9443/ccm/service/com.ibm.team.workitem.common.internal.rest.IAttachmentRestService/itemOid/com.ibm.team.workitem.Attachment/_jgtfwBfhEeeGZNnGMPd9RQ&quot;>242: raport6.pdf&lt;/a>&#xA;&lt;br />&lt;/td>&lt;/tr>&lt;/table>" publishDate="2017-04-02T22:18:58.000+0200" category="com.ibm.team.feeds.workItemChange" receiveDate="2017-04-04T10:07:05.780+0200" guid="urn:uuid:_moYbchfhEeeGZNnGMPd9RQ">
@@ -3792,6 +3828,42 @@
         <customFields key="http://www.ibm.com/team/Feed:severity" value="Normalne"/>
         <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:predecessor_state_id" value="_P64dthFUEeepopIQLKoeXQ"/>
         <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:errorInvalidElementName" value="NAME: Element nadrzędny_added_comment0 VALUE: 9418: Sprint 0.1 (https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/9418)"/>
+        <customFields key="http://www.ibm.com/team/Feed:workitemCategory" value="SPACEGAME"/>
+      </internalContents>
+      <internalContents title="Utwórz repozytorium modeli wizualnych (UML)    (9481)" link="https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/9481" description="Zmienione przez użytkownika &lt;a href=&quot;https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.repository.Contributor/jereczem&quot;>Michał Jereczek&lt;/a>:&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Status&amp;nbsp;&lt;/td>&lt;td>Nowe&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;W toku&lt;/td>&lt;/tr>&lt;/table>" publishDate="2017-04-04T11:40:08.000+0200" category="com.ibm.team.feeds.workItemChange" receiveDate="2017-04-04T10:54:45.301+0200" guid="urn:uuid:_sP85oRkaEeeGZdnGMPd9RQ">
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:repositoryId" value="_edsmg3q5EeKooK0-3Z2fQg"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:typeName" value="WorkItem"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:modified" value="2017-04-04T09:40:08Z"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:typeNamespace" value="com.ibm.team.workitem"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:publicUri" value="https://se.isep.pw.edu.pl:9443/ccm/"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:repositoryURL" value="https://se.isep.pw.edu.pl:9443/ccm/"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:itemId" value="_8pnHnxfFEeeGZNnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:stateId" value="_sMYBKBkaEeeGZdnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/team/Feed:creator" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="team.feed.authorEmail" value="jereczem@ee.pw.edu.pl"/>
+        <customFields key="http://www.ibm.com/team/Feed:modifier" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="http://www.ibm.com/team/Feed:subscriber_count" value="0"/>
+        <customFields key="http://www.ibm.com/team/Feed:owner" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="http://www.ibm.com/team/Feed:severity" value="Normalne"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:predecessor_state_id" value="_rR9nUhkaEeeGZdnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/team/Feed:workitemCategory" value="SPACEGAME"/>
+      </internalContents>
+      <internalContents title="Utwórz repozytorium modeli wizualnych (UML)    (9481)" link="https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/9481" description="Zmienione przez użytkownika &lt;a href=&quot;https://se.isep.pw.edu.pl:9443/ccm/resource/itemName/com.ibm.team.repository.Contributor/jereczem&quot;>Michał Jereczek&lt;/a>:&lt;table class=&quot;changes&quot;>&lt;tr>&lt;td>Należy do&amp;nbsp;&lt;/td>&lt;td>Nie przypisano&amp;nbsp;&amp;nbsp;&amp;rarr;&amp;nbsp;&amp;nbsp;Michał Jereczek&lt;/td>&lt;/tr>&lt;/table>" publishDate="2017-04-04T11:40:02.000+0200" category="com.ibm.team.feeds.workItemChange" receiveDate="2017-04-04T10:54:45.301+0200" guid="urn:uuid:_rVYu0xkaEeeGZdnGMPd9RQ">
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:repositoryId" value="_edsmg3q5EeKooK0-3Z2fQg"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:typeName" value="WorkItem"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:modified" value="2017-04-04T09:40:02Z"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:typeNamespace" value="com.ibm.team.workitem"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:publicUri" value="https://se.isep.pw.edu.pl:9443/ccm/"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:repositoryURL" value="https://se.isep.pw.edu.pl:9443/ccm/"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:itemId" value="_8pnHnxfFEeeGZNnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:stateId" value="_rR9nUhkaEeeGZdnGMPd9RQ"/>
+        <customFields key="http://www.ibm.com/team/Feed:creator" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="team.feed.authorEmail" value="jereczem@ee.pw.edu.pl"/>
+        <customFields key="http://www.ibm.com/team/Feed:modifier" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="http://www.ibm.com/team/Feed:subscriber_count" value="0"/>
+        <customFields key="http://www.ibm.com/team/Feed:owner" value="_1AIAnws2Eee8W4QWLEbNIw"/>
+        <customFields key="http://www.ibm.com/team/Feed:severity" value="Normalne"/>
+        <customFields key="http://www.ibm.com/jazz/0.1.0/syndication:predecessor_state_id" value="_F9gU5BfGEeeGZNnGMPd9RQ"/>
         <customFields key="http://www.ibm.com/team/Feed:workitemCategory" value="SPACEGAME"/>
       </internalContents>
     </internalContents>
