@@ -584,3 +584,21 @@ Caused by: org.eclipse.emf.common.util.BasicEList$BasicIndexOutOfBoundsException
 
 !ENTRY org.eclipse.osgi 2 1 2017-04-04 13:34:59.515
 !MESSAGE NLS unused message: UPGRADE_LABEL in: com.ibm.datatools.core.ui.l10n.datatoolsCoreUI
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-04 13:46:48.279
+!MESSAGE NLS unused message: Calendar_previousMonth in: com.ibm.xtools.reqpro.ui.editor.l10n.ReqEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-04 13:46:48.342
+!MESSAGE NLS unused message: Calendar_nextMonth in: com.ibm.xtools.reqpro.ui.editor.l10n.ReqEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-04 13:46:48.357
+!MESSAGE NLS unused message: Calendar_previousYear in: com.ibm.xtools.reqpro.ui.editor.l10n.ReqEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-04 13:46:48.357
+!MESSAGE NLS unused message: Calendar_nextYear in: com.ibm.xtools.reqpro.ui.editor.l10n.ReqEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-04 13:49:45.404
+!MESSAGE NLS unused message: DATATOOLS_DIAGRAM_CORE_LABEL_LOGICAL in: com.ibm.datatools.diagram.core.l10n.diagramCore
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-04 13:49:45.420
+!MESSAGE NLS unused message: DATATOOLS_DIAGRAM_CORE_ATTRIBUTE_DATATYPE in: com.ibm.datatools.diagram.core.l10n.diagramCore
