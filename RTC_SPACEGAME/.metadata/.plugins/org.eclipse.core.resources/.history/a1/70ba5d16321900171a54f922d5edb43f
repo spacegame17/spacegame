@@ -22,7 +22,7 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_HV0D5BksEeef6tWub2QNRw" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_HV0D5RksEeef6tWub2QNRw" type="Name"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_HV0D5hksEeef6tWub2QNRw" type="Parent"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HV0D4RksEeef6tWub2QNRw" x="11088" y="5940"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HV0D4RksEeef6tWub2QNRw" x="11484" y="6336"/>
         </children>
         <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_HoS7ABksEeef6tWub2QNRw" element="_mX0Y0BkrEeef6tWub2QNRw" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_HoS7AhksEeef6tWub2QNRw" type="ImageCompartment">
