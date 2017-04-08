@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="49" version="2.0">
+<workbench progressCount="171" version="2.0">
 <workbenchAdvisor/>
-<window height="728" width="1024" x="0" y="0">
+<window height="728" maximized="true" width="1024" x="149" y="62">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="com.ibm.xtools.mde.guidance"/>
 </fastViewData>
@@ -10,7 +10,7 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="1086" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.datatools.optim.solutions.myOptimSolutions" itemType="typeToolBarContribution" x="146" y="30"/>
 <coolItem id="com.ibm.datatools.publish.ui.actions.PublishActionSet" itemType="typeToolBarContribution" x="38" y="30"/>
@@ -31,7 +31,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.ibm.xtools.reqpro.ui.editor.RequirementEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="ModelerDiagramEditor" itemType="typeToolBarContribution" x="1030" y="22"/>
+<coolItem id="com.ibm.xtools.reqpro.ui.editor.RequirementEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.team.process.ProjectAreaEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.support.feedback.errorreports.ui.crashReportToolbar" itemType="typeToolBarContribution" x="129" y="22"/>
@@ -46,17 +47,36 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 </editors>
 <views>
-<view id="org.eclipse.datatools.sqltools.result.resultView" partName="SQL Results"/>
-<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator"/>
 <view id="com.ibm.xtools.reqpro.ui.internal.views.trace.ReqProTraceView" partName="Requirement Trace">
 <viewState>
 <LinkWithRequirement>true</LinkWithRequirement>
+</viewState>
+</view>
+<view id="org.eclipse.datatools.sqltools.result.resultView" partName="SQL Results"/>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>
+<filter element="EJS*.java" isEnabled="true"/>
+<filter element="_EJS*.java" isEnabled="true"/>
+<filter element="*.idx" isEnabled="true"/>
+<filter element="*.class" isEnabled="false"/>
+<filter element="RemoteSystemsConnections" isEnabled="true"/>
+<filter element="RemoteSystemsTempFiles" isEnabled="true"/>
+<filter element=".*" isEnabled="false"/>
+</filters>
+<expanded>
+<element path="/Miscellaneous Models"/>
+</expanded>
 </viewState>
 </view>
 <view id="com.ibm.magnolia.TeamCentral" partName="Panel kontrolny zespołu">
@@ -71,7 +91,9 @@
 <view id="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer" partName="Requirement Explorer">
 <viewState ShowingPackages="true"/>
 </view>
-<view id="com.ibm.xtools.reqpro.ui.internal.views.text.RequirementTextView" partName="Requirement Text"/>
+<view id="com.ibm.xtools.reqpro.ui.internal.views.text.RequirementTextView" partName="Requirement Text">
+<viewState/>
+</view>
 <view id="com.ibm.ccl.tdi.reqpro.ui.internal.views.brokenlinks.BrokenLinksView" partName="Requirement Link Problems">
 <viewState/>
 </view>
@@ -84,9 +106,11 @@
 <view id="com.ibm.team.process.rcp.ui.teamArtifactsNavigator" partName="Team Artifacts">
 <viewState/>
 </view>
-<view id="com.ibm.datatools.project.ui.projectExplorer" partName="Data Project Explorer"/>
+<view id="com.ibm.datatools.project.ui.projectExplorer" partName="Data Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" currentWorkingSetName="Aggregate for window 1491293095358" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
@@ -98,9 +122,17 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="com.ibm.xtools.mde.guidance" partName="MDD Guidance"/>
+<view id="com.ibm.xtools.mde.guidance" partName="MDD Guidance">
+<viewState GuidanceView.orientation="512" PRIMARY_SORT_FIELD="com.ibm.xtools.mde.ui.descriptionAndIconField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="com.ibm.xtools.mde.ui.generator" partName="MDD Guidance">
+<columnWidths com.ibm.xtools.mde.ui.descriptionAndIconField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0"/>
+<visible IMemento.internal.id="com.ibm.xtools.mde.ui.descriptionAndIconField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
 </views>
-<perspectives activePart="com.ibm.xtools.reqpro.ui.editor.RequirementEditor" activePerspective="com.ibm.xtools.reqpro.activities.internal.perspective.RequirementPerspective">
+<perspectives activePart="ModelerDiagramEditor" activePerspective="com.ibm.xtools.reqpro.activities.internal.perspective.RequirementPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.ibm.team.workitem.ide.ui.internal.WorkItemPerspectiveFactory" id="com.ibm.magnolia.ui.workItemPerspective" label="Work Items"/>
 <alwaysOnActionSet id="com.ibm.rational.welcome.core.helpSearchActionSet"/>
@@ -162,37 +194,27 @@
 <view id="com.ibm.team.process.rcp.ui.teamArtifactsNavigator"/>
 <view id="com.ibm.magnolia.TeamCentral"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
-<fastViews>
-<view id="com.ibm.xtools.mde.guidance" ratio="0.3"/>
+<fastViews>&#x0A;<view id="com.ibm.xtools.mde.guidance" ratio="0.3"/>
 </fastViews>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="left">
-<folder activePageID="com.ibm.team.process.rcp.ui.teamArtifactsNavigator" appearance="2" expanded="2">
-<page content="com.ibm.magnolia.TeamCentral" label="Panel kontrolny zespołu"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="com.ibm.team.process.rcp.ui.teamArtifactsNavigator" appearance="2" expanded="2">&#x0A;<page content="com.ibm.magnolia.TeamCentral" label="Panel kontrolny zespołu"/>
 <page content="com.ibm.team.process.rcp.ui.teamArtifactsNavigator" label="Team Artifacts"/>
 <page content="com.ibm.team.apt.internal.ui.myWorkView" label="LabelNotFound"/>
 <page content="com.ibm.team.process.projectAreaExplorer" label="LabelNotFound"/>
 <page content="com.ibm.team.process.processTemplateExplorer" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@cb1d6128" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@cb1d6128" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.3" ratioLeft="300" ratioRight="700" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7495682" ratioLeft="434" ratioRight="145" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<info folder="true" part="bottom" ratio="0.7495682" ratioLeft="434" ratioRight="145" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="com.ibm.magnolia.workItemExplorer" label="LabelNotFound"/>
 <page content="com.ibm.team.workitem.rcp.ui.WorkItemTagView" label="LabelNotFound"/>
 <page content="com.ibm.team.collaboration.ui.internal.chatView" label="LabelNotFound"/>
@@ -200,8 +222,7 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="com.ibm.team.process.operationAdviceView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -289,34 +310,24 @@
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.datatools.sqltools.result.resultView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<fastViews>
-<view id="com.ibm.xtools.mde.guidance" ratio="0.3"/>
+<fastViews>&#x0A;<view id="com.ibm.xtools.mde.guidance" ratio="0.3"/>
 </fastViews>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@78d460c2">
-<folder appearance="2" expanded="2">
-<page content="com.ibm.datatools.project.ui.projectExplorer" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@78d460c2">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.ibm.datatools.project.ui.projectExplorer" label="LabelNotFound"/>
 <page content="com.ibm.team.process.rcp.ui.teamArtifactsNavigator" label="LabelNotFound"/>
 <page content="com.ibm.team.filesystem.ui.changes.views.LocalWorkspaceChangesView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="org.eclipse.ui.internal.ViewStack@78d460c2">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="org.eclipse.ui.internal.ViewStack@78d460c2">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="org.eclipse.ui.internal.ViewStack@78d460c2"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@8fd26908" ratio="0.65968585" ratioLeft="378" ratioRight="195" relationship="4" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer">
-<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@8fd26908" ratio="0.65968585" ratioLeft="378" ratioRight="195" relationship="4" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.datatools.sqltools.result.resultView" label="SQL Results"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -325,21 +336,16 @@
 <info part="com.ibm.team.process.operationAdviceView" ratio="0.5" ratioLeft="375" ratioRight="375" relationship="2" relative="org.eclipse.ui.internal.ViewStack@8fd26908"/>
 <info part="com.ibm.team.build.internal.ui.views.query.BuildQueryView" ratio="0.5" ratioLeft="375" ratioRight="375" relationship="2" relative="org.eclipse.ui.internal.ViewStack@8fd26908"/>
 <info part="com.ibm.team.collaboration.ui.internal.chatView" ratio="0.5" ratioLeft="375" ratioRight="375" relationship="2" relative="org.eclipse.ui.internal.ViewStack@8fd26908"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@466d2991" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@466d2991" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="com.ibm.team.apt.internal.ui.myWorkView" label="LabelNotFound"/>
 <page content="com.ibm.magnolia.TeamCentral" label="LabelNotFound"/>
 <page content="com.ibm.ccl.linkability.ui.internal.views.linkclipboard.LinkClipboardView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24911033" ratioLeft="140" ratioRight="422" relationship="2" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@b217130b" ratio="0.4991274" ratioLeft="286" ratioRight="287" relationship="4" relative="org.eclipse.ui.internal.ViewStack@78d460c2">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b217130b" ratio="0.4991274" ratioLeft="286" ratioRight="287" relationship="4" relative="org.eclipse.ui.internal.ViewStack@78d460c2">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
@@ -405,9 +411,9 @@
 <view id="org.eclipse.ui.views.ResourceNavigator"/>
 <view id="com.ibm.datatools.project.ui.projectExplorer"/>
 <view id="com.ibm.xtools.reqpro.ui.internal.views.queryresults.QueryResultsView"/>
+<view id="com.ibm.ccl.tdi.reqpro.ui.internal.views.brokenlinks.BrokenLinksView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="com.ibm.xtools.reqpro.ui.internal.views.text.RequirementTextView"/>
-<view id="com.ibm.ccl.tdi.reqpro.ui.internal.views.brokenlinks.BrokenLinksView"/>
 <view id="com.ibm.xtools.reqpro.ui.internal.views.trace.ReqProTraceView"/>
 <view id="com.ibm.ccl.linkability.ui.internal.views.linkclipboard.LinkClipboardView"/>
 <view id="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer"/>
@@ -440,7 +446,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.5" ratioLeft="500" ratioRight="500" relationship="2" relative="Requirements Management Integration Top Middle"/>
 <info folder="true" part="Requirements Management Integration Bottom Right" ratio="0.6987296" ratioLeft="385" ratioRight="166" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.ibm.ccl.tdi.reqpro.ui.internal.views.brokenlinks.BrokenLinksView" appearance="2" expanded="2">
+<folder activePageID="com.ibm.xtools.reqpro.ui.internal.views.queryresults.QueryResultsView" appearance="2" expanded="2">
 <page content="com.ibm.xtools.reqpro.ui.internal.views.queryresults.QueryResultsView" label="Requirement Query Results"/>
 <page content="com.ibm.ccl.tdi.reqpro.ui.internal.views.brokenlinks.BrokenLinksView" label="Requirement Link Problems"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
@@ -484,9 +490,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -495,7 +498,6 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
 <trimItem IMemento.internal.id="com.ibm.team.metronome.group"/>
 <trimItem IMemento.internal.id="com.ibm.team.workitem.rcp.ui.WorkitemActivationGroup"/>
 <trimItem IMemento.internal.id="com.ibm.team.collaboration.rcp.ui.ChangePresenceGroup"/>

@@ -602,3 +602,377 @@ Caused by: org.eclipse.emf.common.util.BasicEList$BasicIndexOutOfBoundsException
 
 !ENTRY org.eclipse.osgi 2 1 2017-04-04 13:49:45.420
 !MESSAGE NLS unused message: DATATOOLS_DIAGRAM_CORE_ATTRIBUTE_DATATYPE in: com.ibm.datatools.diagram.core.l10n.diagramCore
+
+!ENTRY org.eclipse.equinox.weaving.caching 4 0 2017-04-06 10:47:07.349
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.equinox.weaving.internal.caching.Activator.stop() of bundle org.eclipse.equinox.weaving.caching.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.equinox.weaving.internal.caching.Activator.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	... 20 more
+Root exception:
+java.lang.NullPointerException
+	at org.eclipse.equinox.weaving.internal.caching.Activator.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+!SESSION 2017-04-06 11:04:09.681 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows 7 x86-32 20121024_126071 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR3_20121024_1635_B126071
+JIT  - r11.b02_20120924_26343a
+GC   - R26_Java726_SR3_20121024_1635_B126071
+J9CL - 20121024_126071
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Framework arguments:  -product com.ibm.team.concert.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.team.concert.product
+
+!ENTRY org.eclipse.ui 2 0 2017-04-06 11:04:52.306
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-04-06 11:04:52.306
+!MESSAGE Commands should really have a category: plug-in='com.ibm.xtools.modeler.ui.diagrams.statechart', id='com.ibm.xtools.modeler.ui.diagrams.statechart.moveLeft', categoryId='com.ibm.xtools.modeler.ui.diagrams.statechart.moveTransitiontools.modeler.ui.diagrams.statechart.moveTransition'
+!SESSION 2017-04-06 11:21:35.311 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows 7 x86-32 20121024_126071 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR3_20121024_1635_B126071
+JIT  - r11.b02_20120924_26343a
+GC   - R26_Java726_SR3_20121024_1635_B126071
+J9CL - 20121024_126071
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Framework arguments:  -product com.ibm.team.concert.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.team.concert.product
+
+!ENTRY org.eclipse.ui 2 0 2017-04-06 11:22:30.661
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-04-06 11:22:30.661
+!MESSAGE Commands should really have a category: plug-in='com.ibm.xtools.modeler.ui.diagrams.statechart', id='com.ibm.xtools.modeler.ui.diagrams.statechart.moveLeft', categoryId='com.ibm.xtools.modeler.ui.diagrams.statechart.moveTransitiontools.modeler.ui.diagrams.statechart.moveTransition'
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-06 11:33:37.513
+!MESSAGE Exception thrown when resolving package descriptor for package "org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor@e49cb02": java.lang.ClassNotFoundException: corbaMetaModel.CorbaMetaModelPackage
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2017-04-06 11:34:07.138
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY org.eclipse.osgi 4 0 2017-04-06 11:34:10.075
+!MESSAGE An error occurred while automatically activating bundle com.ibm.xtools.emf.ram (1918).
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.ibm.xtools.emf.ram.internal.Activator.start() of bundle com.ibm.xtools.emf.ram.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(Unknown Source)
+	at org.eclipse.osgi.framework.util.SecureAction.start(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(Unknown Source)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor.getEPackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.resolvePackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.virtualTypeFor(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.nameToVirtualType(Unknown Source)
+	at com.ibm.team.repository.common.Location.canonicalizeTypedURI(Unknown Source)
+	at com.ibm.team.repository.common.Location.<init>(Unknown Source)
+	at com.ibm.team.repository.common.Location.locationFromAbsUri(Unknown Source)
+	at com.ibm.team.repository.common.Location.location(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getRepositoryUri(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.addDefaultBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.handleLogin(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository.login(Unknown Source)
+	at com.ibm.team.process.internal.rcp.ui.LoginAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+Caused by: org.osgi.framework.BundleException: RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+	at com.ibm.xtools.emf.ram.internal.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	... 38 more
+Root exception:
+org.osgi.framework.BundleException: RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+	at com.ibm.xtools.emf.ram.internal.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(Unknown Source)
+	at org.eclipse.osgi.framework.util.SecureAction.start(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(Unknown Source)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor.getEPackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.resolvePackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.virtualTypeFor(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.nameToVirtualType(Unknown Source)
+	at com.ibm.team.repository.common.Location.canonicalizeTypedURI(Unknown Source)
+	at com.ibm.team.repository.common.Location.<init>(Unknown Source)
+	at com.ibm.team.repository.common.Location.locationFromAbsUri(Unknown Source)
+	at com.ibm.team.repository.common.Location.location(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getRepositoryUri(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.addDefaultBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.handleLogin(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository.login(Unknown Source)
+	at com.ibm.team.process.internal.rcp.ui.LoginAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-06 11:34:10.263
+!MESSAGE Exception thrown when resolving package descriptor for package "org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor@523f1593": org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle com.ibm.xtools.emf.ram (1918).
+
+!ENTRY com.ibm.team.repository.client 4 2 2017-04-06 11:34:11.278
+!MESSAGE Problems occurred when invoking code from plug-in: "com.ibm.team.repository.client".
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at java.lang.J9VMInternals.initialize(Unknown Source)
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at sun.reflect.UnsafeFieldAccessorFactory.newFieldAccessor(Unknown Source)
+	at sun.reflect.ReflectionFactory.newFieldAccessor(Unknown Source)
+	at java.lang.reflect.Field.acquireFieldAccessor(Unknown Source)
+	at java.lang.reflect.Field.getFieldAccessor(Unknown Source)
+	at java.lang.reflect.Field.get(Unknown Source)
+	at org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor.getEPackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.resolvePackage(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ComponentRegistry.getAllVirtualTypes(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.virtualTypeFor(Unknown Source)
+	at com.ibm.team.repository.common.internal.util.ItemUtil.nameToVirtualType(Unknown Source)
+	at com.ibm.team.repository.common.Location.canonicalizeTypedURI(Unknown Source)
+	at com.ibm.team.repository.common.Location.<init>(Unknown Source)
+	at com.ibm.team.repository.common.Location.locationFromAbsUri(Unknown Source)
+	at com.ibm.team.repository.common.Location.location(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getRepositoryUri(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.getBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.addDefaultBuildChannel(Unknown Source)
+	at com.ibm.team.build.internal.ui.feed.BuildFeedConfigurer.handleLogin(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.team.repository.client.internal.TeamRepository.login(Unknown Source)
+	at com.ibm.team.process.internal.rcp.ui.LoginAction$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+Caused by: org.eclipse.emf.common.util.BasicEList$BasicIndexOutOfBoundsException: index=1, size=1
+	at org.eclipse.emf.common.util.BasicEList.get(Unknown Source)
+	at com.ibm.datamodels.rdf.impl.RDFSPackageImpl.getRDFSLiteral_LexicalForm(Unknown Source)
+	at com.ibm.datamodels.rdf.impl.RDFSPackageImpl.initializePackageContents(Unknown Source)
+	at com.ibm.datamodels.rdf.impl.RDFSPackageImpl.init(Unknown Source)
+	at com.ibm.datamodels.rdf.RDFSPackage.<clinit>(Unknown Source)
+	at java.lang.J9VMInternals.initializeImpl(Native Method)
+	... 27 more
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-06 11:34:11.310
+!MESSAGE Exception thrown when resolving package descriptor for package "org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor@e49cb02": java.lang.ClassNotFoundException: corbaMetaModel.CorbaMetaModelPackage
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-06 11:34:11.356
+!MESSAGE Exception thrown when resolving package descriptor for package "org.eclipse.emf.ecore.plugin.RegistryReader$EPackageDescriptor@523f1593": org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException: An error occurred while automatically activating bundle com.ibm.xtools.emf.ram (1918).
+
+!ENTRY com.ibm.team.repository 2 900 2017-04-06 11:34:11.372
+!MESSAGE Package descriptor "org.eclipse.emf.ecore.impl.EPackageImpl$1@a73a1ae9" references unrecognized package
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-07 12:31:32.735
+!MESSAGE NLS unused message: Calendar_previousMonth in: com.ibm.xtools.reqpro.ui.editor.l10n.ReqEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-07 12:31:35.345
+!MESSAGE NLS unused message: Calendar_nextMonth in: com.ibm.xtools.reqpro.ui.editor.l10n.ReqEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-07 12:31:35.360
+!MESSAGE NLS unused message: Calendar_previousYear in: com.ibm.xtools.reqpro.ui.editor.l10n.ReqEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-07 12:31:35.376
+!MESSAGE NLS unused message: Calendar_nextYear in: com.ibm.xtools.reqpro.ui.editor.l10n.ReqEditorMessages
+
+!ENTRY org.eclipse.jface 2 0 2017-04-07 18:16:51.938
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(Unknown Source)
+	at org.eclipse.jface.viewers.ColumnViewer.update(Unknown Source)
+	at org.eclipse.ui.navigator.CommonViewer.update(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.update(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(Unknown Source)
+	at org.eclipse.ui.navigator.CommonViewer.handleLabelProviderChanged(Unknown Source)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(Unknown Source)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(Unknown Source)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider$1.labelProviderChanged(Unknown Source)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(Unknown Source)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(Unknown Source)
+	at org.eclipse.ui.progress.UIJob$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at com.ibm.ccl.tdi.reqpro.ui.internal.sync.PromptSyncPolicy.synchronize(Unknown Source)
+	at com.ibm.ccl.tdi.reqpro.ui.internal.sync.SynchronizationService.synchronizeElement(Unknown Source)
+	at com.ibm.ccl.tdi.reqpro.ui.internal.sync.ElementObserver.linkableChanged(Unknown Source)
+	at com.ibm.ccl.linkability.core.internal.events.LinkableRefObservatory$RefTable$Entry.notifyObserver(Unknown Source)
+	at com.ibm.ccl.linkability.core.internal.events.LinkableRefObservatory$RefTable$Entry.notifyObservers(Unknown Source)
+	at com.ibm.ccl.linkability.core.internal.events.LinkableRefObservatory$RefTable.notifyRefObservers(Unknown Source)
+	at com.ibm.ccl.linkability.core.internal.events.LinkableRefObservatory.notifyLinkableObservers(Unknown Source)
+	at com.ibm.ccl.linkability.core.internal.events.LinkableRefObservatory.notifyLinkableObservers(Unknown Source)
+	at com.ibm.ccl.linkability.provider.uml.internal.linkable.ModelListener.handleModelOpenClose(Unknown Source)
+	at com.ibm.ccl.linkability.provider.uml.internal.linkable.ModelListener.handleModelOpen(Unknown Source)
+	at com.ibm.ccl.linkability.provider.uml.internal.linkable.ModelListener.handleEvent(Unknown Source)
+	at com.ibm.ccl.linkability.provider.uml.internal.linkable.ModelListener.handleEvent(Unknown Source)
+	at com.ibm.ccl.linkability.provider.uml.internal.linkable.ModelListener$1.handleNotification(Unknown Source)
+	at org.eclipse.emf.transaction.DemultiplexingListener.resourceSetChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain$ResourceSetListenerWrapper.resourceSetChanged(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain$3.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.doPostcommit(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.postcommit(Unknown Source)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.deactivate(Unknown Source)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionImpl.close(Unknown Source)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runExclusive(Unknown Source)
+	at com.ibm.xtools.modeler.ui.navigator.internal.util.ModelerNavigatorUtil.openResource(Unknown Source)
+	at com.ibm.xtools.modeler.ui.navigator.internal.providers.content.UMLNavigatorContentProvider.getChildren(Unknown Source)
+	at com.ibm.xtools.common.ui.navigator.internal.providers.AbstractContentProviderWrapper.getChildren(Unknown Source)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(Unknown Source)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(Unknown Source)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(Unknown Source)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(Unknown Source)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(Unknown Source)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(Unknown Source)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(Unknown Source)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(Unknown Source)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(Unknown Source)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(Unknown Source)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(Unknown Source)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(Unknown Source)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(Unknown Source)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$4.treeExpanded(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Unknown Source)
+	at org.eclipse.swt.widgets.Control.wmNotify(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Tree.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-07 18:17:02.954
+!MESSAGE NLS unused message: UPGRADE_LABEL in: com.ibm.datatools.core.ui.l10n.datatoolsCoreUI
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-07 18:23:59.157
+!MESSAGE NLS unused message: DATATOOLS_DIAGRAM_CORE_LABEL_LOGICAL in: com.ibm.datatools.diagram.core.l10n.diagramCore
+
+!ENTRY org.eclipse.osgi 2 1 2017-04-07 18:23:59.173
+!MESSAGE NLS unused message: DATATOOLS_DIAGRAM_CORE_ATTRIBUTE_DATATYPE in: com.ibm.datatools.diagram.core.l10n.diagramCore

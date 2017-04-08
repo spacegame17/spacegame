@@ -1,4 +1,4 @@
-#Tue Apr 04 13:34:33 CEST 2017
+#Thu Apr 06 10:46:34 CEST 2017
 Themes/Khaki/com.ibm.xtools.uml.actor=Khaki 4
 Themes/UML\ Modeling\ Classic/com.ibm.xtools.uml.actor=Grey-white gradient
 EdgeApps/Brown\ rectilinear/notation.RoundedCornersStyle.roundedBendpointsRadius=4
@@ -33,6 +33,7 @@ ShapeApps/Brown\ 5/notation.FillStyle.fillColor=13891322
 Themes/Olive/com.ibm.xtools.uml.asynchCallMessage=Brown conn
 Themes/Brown/com.ibm.xtools.uml.submachineState=Brown 5
 Themes/Khaki/com.ibm.xtools.uml.compositeState=Khaki 6
+Global.promptOnDelFromDiagram=always
 Themes/Brown/com.ibm.xtools.uml.activityPartition=Brown 4
 Themes/Rational\ Rose\ Classic/Edge=Red conn
 Themes/Default/com.ibm.xtools.uml.asynchCallMessage=Default oblique connector

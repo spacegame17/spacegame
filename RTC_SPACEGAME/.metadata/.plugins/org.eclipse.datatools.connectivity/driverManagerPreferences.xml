@@ -1,5 +1,5 @@
 #DriverManager.Preferences
-#Tue Apr 04 13:36:20 CEST 2017
+#Thu Apr 06 19:56:01 CEST 2017
 com.ibm.datatools.db2.zseries.ldapDriverTemplate=true
 com.ibm.datatools.db2.alias.driverTemplate=true
 org.eclipse.datatools.enablement.hsqldb.1_8.driver=true
